@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    height: 600px;
+    /* display: none; */
+    padding: 20px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(college.avif);
+}
+
+.head {
+    padding: 10px;
+    cursor: pointer;
+    width: fit-content;
+    border: 2px solid blue;
+    background-color: royalblue;
+}
+
+.head p {
+    color: #272424;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.department .dep-one {
+    padding: 10px;
+    margin: 10px;
+    width: 250PX;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.dep-one:hover {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.dep-one p {
+    color: gray;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.student {
+    width: 100%;
+    height: 600px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(students.avif);
+}
+
+.student .dep-one {
+    padding: 10px;
+    margin: 10px;
+    width: 250PX;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.student .dep-one:hover {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.student {
+    padding: 20px 0px;
+}
+
+.student .head {
+    background-color: royalblue;
+}
+
+.student .head p {
+    color: #272424;
+}
+
+.add-student {
+    padding: 20px;
+    display: none;
+    margin-top: -150px;
+    width: fit-content;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px 0px;
+    background-color: rgba(19, 92, 126, 0.397);
+}
+
+#stu-head {
+    font-size: 25px ;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: blue 1px 1px;
+}
+
+.add-form {
+    margin: 20px 0px;
+}
+
+.opt-one {
+    margin: 20px 0px;
+}
+
+.opt-one span {
+    margin: 0px 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.opt-one input {
+    width: 200px;
+    outline: none;
+    padding: 4px 2px;
+    background-color: aliceblue;
+    border: .1px solid black;
+}
+
+.students-list {
+    width: 50%;
+    display: none;
+    margin-top: -150px;
+}
+
+.table {
+    width: 60%;
+    background-color: white;
+}
+
+.lab {
+    width: 100%;
+    height: 600px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(lab-management.avif);
+}
+
+.lab {
+    padding: 20px;
+}
+
+.lab .dep-one {
+    padding: 10px;
+    margin: 10px;
+    width: 250PX;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.lab .dep-one:hover {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.staff {
+    width: 100%;
+    height: 600px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(staff.jpg);
+}
+
+.staff .dep-one {
+    padding: 10px;
+    margin: 10px;
+    width: 250PX;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.staff .dep-one:hover {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.staff-list {
+    width: 80%;
+    display: none;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>School Managment</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ------------------------------Start Home Page--------------------------------------- -->
+
+    <div class="home">
+
+        <center>
+            <div class="head">
+                <center>
+                    <p>***** WELLCOME TO SCHOOL MANAGMENT *****</p>
+                </center>
+            </div>
+        </center>
+
+        <div class="department">
+            <div class="dep-one" id="student">
+                <center>
+                    <p>STUDENT MANAGEMENT</p>
+                </center>
+            </div>
+            <div class="dep-one" id="lab">
+                <center>
+                    <p>LAB MANAGEMENT</p>
+                </center>
+            </div>
+            <div class="dep-one" id="staff-management">
+                <center>
+                    <p>STAFF MANAGEMENT</p>
+                </center>
+            </div>
+            <div class="dep-one">
+                <center>
+                    <p>ACCESSORIES MANAGMENT</p>
+                </center>
+            </div>
+            <div class="dep-one">
+                <center>
+                    <p>ACCOUNT MANAGMENT</p>
+                </center>
+            </div>
+            <div class="dep-one">
+                <center>
+                    <p>ABOUT</p>
+                </center>
+            </div>
+            <div class="dep-one">
+                <center>
+                    <p>EXIT</p>
+                </center>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------------------------------------End Home Page--------------------------------------- -->
+
+    <!-- ---------------------------------------Start Student Page--------------------------------------- -->
+
+    <div class="student">
+
+        <center>
+            <div class="head">
+                <center>
+                    <p>***** STUDENT MANAGEMENT *****</p>
+                </center>
+            </div>
+        </center>
+
+        <div class="dep-one">
+            <center>
+                <p id="add-stu">ADD STUDENT</p>
+            </center>
+        </div>
+        <div class="dep-one" id="display-student">
+            <center>
+                <p>DISPLAY</p>
+            </center>
+        </div>
+        <div class="dep-one" id="delete">
+            <center>
+                <p>DELETE</p>
+            </center>
+        </div>
+        <div class="dep-one" id="stu-exit">
+            <center>
+                <p>EXIT</p>
+            </center>
+        </div>
+
+        <!-- ------------------------------------Student List----------------------------- -->
+
+        <center>
+            <div class="students-list">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Sr No.</th>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">Mobile No.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Prem</td>
+                            <td>Puri</td>
+                            <td>9890875629</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Omkar</td>
+                            <td>Raut</td>
+                            <td>8309179792</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Aditya</td>
+                            <td>9034578289</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </center>
+
+        <!-- ----------------------------------------Add Student--------------------------------- -->
+
+        <center>
+            <div class="add-student">
+
+                <center>
+                    <p id="stu-head">ADD STUDENT</p>
+                </center>
+
+                <div class="add-form">
+
+                    <center>
+                        <div class="opt-one">
+                            <span>STUDENT NAME</span>
+                            <input type="text" placeholder="Enter Student Name">
+                        </div>
+                    </center>
+
+                    <center>
+                        <div class="opt-one">
+                            <span>COURSE</span>
+                            <input type="text" placeholder="Enter Course Name">
+                        </div>
+                    </center>
+
+                    <center>
+                        <div class="opt-one">
+                            <span>ROLL NO.</span>
+                            <input type="number" placeholder="Enter Roll No.">
+                        </div>
+                    </center>
+
+                    <center>
+                        <div class="opt-one">
+                            <span>DEPARTMENT</span>
+                            <input type="text" placeholder="Enter Dept Name">
+                        </div>
+                    </center>
+
+                    <center>
+                        <div class="opt-one">
+                            <span>DATE OF BIRTH</span>
+                            <input type="number" placeholder="Enter DOB">
+                        </div>
+                    </center>
+
+                    <center>
+                        <div class="opt-one">
+                            <span>REG NO.</span>
+                            <input type="number" placeholder="Enter REG No.">
+                        </div>
+                    </center>
+
+                    <center>
+                        <div class="opt-one">
+                            <span>MOB NO.</span>
+                            <input type="number" placeholder="Enter Mobile Number">
+                        </div>
+                    </center>
+
+                </div>
+
+            </div>
+        </center>
+
+    </div>
+
+    <!-- -----------------------------------------End Student Page------------------------ -->
+
+    <!-- ------------------------------------Start Lab Page--------------------------------------- -->
+
+    <div class="lab">
+
+        <center>
+            <div class="head">
+                <center>
+                    <p>***** LAB MANAGEMENT *****</p>
+                </center>
+            </div>
+        </center>
+
+        <div class="dep-one" id="com-lab">
+            <center>
+                <p id="add-stu">COMPUTER LAB</p>
+            </center>
+        </div>
+
+        <div class="dep-one" id="med-lab">
+            <center>
+                <p id="add-stu">MEDICAL LAB</p>
+            </center>
+        </div>
+
+        <div class="dep-one" id="lab-about">
+            <center>
+                <p id="add-stu">ABOUT</p>
+            </center>
+        </div>
+
+        <div class="dep-one" id="lab-exit">
+            <center>
+                <p id="add-stu">EXIT</p>
+            </center>
+        </div>
+
+    </div>
+
+    <!-- --------------------------------End Lab Page--------------------------------------- -->
+
+    <!-- -----------------------------------Start Staff Page--------------------------------------- -->
+
+    <div class="staff">
+
+        <center>
+            <div class="head">
+                <center>
+                    <p>***** Staff MANAGEMENT *****</p>
+                </center>
+            </div>
+        </center>
+
+        <div class="dep-one" id="dis-staff">
+            <center>
+                <p>DISPLAY STAFF</p>
+            </center>
+        </div> 
+        
+        <div class="dep-one" id="staff-exit">
+            <center>
+                <p>EXIT</p>
+            </center>
+        </div> 
+
+        <div class="staff-list">
+
+            <center>
+                <div class="staff-list">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sr No.</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Mobile No.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Suresh</td>
+                                <td>Rathod</td>
+                                <td>8590875629</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Shyam</td>
+                                <td>Shinde</td>
+                                <td>9309179792</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Sharad</td>
+                                <td>9034578289</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </center>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('#student').click(function () {
+                $('.home').hide(1000);
+                $('.student').show(1000);
+            })
+
+            $('#stu-exit').click(function () {
+                $('.student').hide(1000);
+                $('.home').show(1000);
+            })
+
+            $('#add-stu').click(function () {
+                $('.add-student').show(1000);
+            })
+
+            $('#delete').click(function () {
+                $('.add-student').hide(1000);
+            })
+
+            $('#display-student').click(function(){
+                $('.students-list').toggle(1000);
+            })
+
+            $('#lab').click(function(){
+                $('.home').hide(1000);
+                $('.lab').show(1000);
+            })
+
+            $('#com-lab').click(function(){
+                alert("Sorry Computer Lab is not decalre...")
+            })
+
+            $('#med-lab').click(function(){
+                alert("Sorry Medical Lab is not decalre...")
+            })
+
+            $('#lab-about').click(function(){
+                alert("Sorry Lab About is not decalre...")
+            })
+
+            $('#lab-exit').click(function(){
+                $('.lab').hide(1000);
+                $('.home').show(1000);
+            })
+
+            $('#staff-management').click(function(){
+                $('.staff').show(1000);
+                $('.home').hide(1000);
+            })
+
+            $('#staff-exit').click(function(){
+                $('.home').show(1000);
+                $('.staff').hide(1000);
+            })
+
+            $('#dis-staff').click(function(){
+                $('.staff-list').toggle(1000);
+            })
+
+        })
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
